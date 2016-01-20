@@ -8,8 +8,8 @@
         <meta name="description" content="Xavier Sit Personal Website">
         <meta name="author" content="Xavier Sit">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-        <link rel="stylesheet" type="text/css" href="css/custom.css">
         <link rel="stylesheet" type="text/css" href="css/materialize.min.css">
+        <link rel="stylesheet" type="text/css" href="css/custom.css">
         <title>Xavier Sit</title>
     </head>
 
@@ -34,7 +34,7 @@
                         <div id="about" class="section scrollspy">
                             <h2 class="header blue-text text-darken-4">About Me</h2>
                             <div class="row">
-                                <div class="col s12 m3 l2">
+                                <div class="col s8 m3 l2">
                                       <img class="circle responsive-img" src="img/About.png">
                                 </div>
                                 <div class="col s12 m9 push-l1">
@@ -45,7 +45,7 @@
                         <div id="education" class="section scrollspy">
                             <h2 class="blue-text text-darken-4">Education</h2>
                             <div class="row">
-                                <div class="col s12 m3 l2">
+                                <div class="col s8 m3 l2">
                                       <img class="responsive-img" src="img/McGill.png">
                                 </div>
                                 <div class="col s12 m9 push-l1">
@@ -59,7 +59,7 @@
                             <div class="divider"></div><br>
 
                             <div class="row">
-                                <div class="col s12 m3 l2">
+                                <div class="col s8 m3 l2">
                                       <img class="responsive-img" src="img/KU.png">
                                 </div>
                                 <div class="col s12 m9 push-l1">
@@ -74,7 +74,7 @@
                         <div id="experience" class="section scrollspy">
                             <h2 class="blue-text text-darken-4">Experience</h2>
                             <div class="row">
-                                <div class="col s12 m3 l2">
+                                <div class="col s8 m3 l2">
                                       <img class="responsive-img" src="img/Ubisoft.png">
                                 </div>
                                 <div class="col s12 m9 push-l1">
@@ -87,7 +87,7 @@
                             <div class="divider"></div><br>
 
                             <div class="row">
-                                <div class="col s12 m3 l2">
+                                <div class="col s8 m3 l2">
                                       <img class="responsive-img" src="img/MyMartlet.png">
                                 </div>
                                 <div class="col s12 m9 push-l1">
@@ -101,23 +101,27 @@
                     </div>
                     <div class="col hide-on-small-only m3 l2">
                         <div class="toc-wrapper">
-                            <img class="circle responsive-img" src="img/About.png">
-                            <tr>
-                                <td><span class="fa fa-phone"></span></td>
-                                <td>+1-438-880-3190</td>
-                            </tr>
-                            <tr>
-                                <td><span class="fa fa-map-marker"></span></td>
-                                <td>Montreal, QC, Canada</td>
-                            </tr>
-                            <tr>
-                                <td><span class="fa fa-envelope"></span></td>
-                                <td>chiwingsit@gmail.com</td>
-                            </tr>
-                            <tr>
-                                <td><span class="fa fa-linkedin"></span></td>
-                                <td>linkedin.com/in/xaviersit</td>
-                            </tr>
+                            <div>
+                                <img class="circle" src="img/About.png">
+                                <table class="contact">
+                                    <tr>
+                                        <td><span class="fa fa-phone"></span></td>
+                                        <td>+1-438-880-3190</td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="fa fa-map-marker"></span></td>
+                                        <td>Montreal, QC, Canada</td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="fa fa-envelope"></span></td>
+                                        <td>chiwingsit@gmail.com</td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="fa fa-linkedin"></span></td>
+                                        <td>LinkedIn</td>
+                                    </tr>
+                                </table>
+                            </div>
                             <div style="height: 1px;">
                                 <ul class="section table-of-contents">
                                     <li><a href="#about">About</a></li>
@@ -133,12 +137,26 @@
         <footer class="page-footer blue darken-3">
             <div class="container">
                 <div class="row">
-                    <div class="col s12 center-align">
+                    <div class="col s12">
                         <h5 class="white-text">Contact Information</h5>
-                        <span class="fa fa-phone fa-2x white-text"></span><span class="white-text"> +1-438-880-3190</span><br>
-                        <span class="fa fa-map-marker fa-2x white-text"></span><span class="white-text"> Montreal, QC, Canada</span><br>
-                        <span class="fa fa-envelope fa-2x white-text"></span><span class="white-text"> chiwingsit@gmail.com</span><br>
-                        <span class="fa fa-linkedin fa-2x white-text"></span><span class="white-text"> ca.linkedin.com/in/xaviersit</span><br>
+                        <table class="contact" style="width:0;">
+                            <tr>
+                                <td><span class="fa fa-phone fa-2x white-text"></span></td>
+                                <td><span class="white-text">+1-438-880-3190</span></td>
+                            </tr>
+                            <tr>
+                                <td><span class="fa fa-map-marker fa-2x white-text"></span></td>
+                                <td><span class="white-text">Montreal, QC, Canada</span></td>
+                            </tr>
+                            <tr>
+                                <td><span class="fa fa-envelope fa-2x white-text"></span></td>
+                                <td><span class="white-text">chiwingsit@gmail.com</span></td>
+                            </tr>
+                            <tr>
+                                <td><span class="fa fa-linkedin fa-2x white-text"></span></td>
+                                <td><span class="white-text">LinkedIn</span></td>
+                            </tr>
+                        </table>
                     </div>
                 </div>
             </div>
