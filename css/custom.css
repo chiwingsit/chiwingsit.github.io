@@ -1,3 +1,10 @@
 table.contact td {
     padding: 5px;
 }
+ul.circle{
+    list-style-type: disc;
+    padding-left: 16px;
+}
+ul.circle li{
+    list-style-type: disc;
+}
