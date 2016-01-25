@@ -1,10 +1,10 @@
 table.contact td {
     padding: 5px;
 }
-ul.circle{
+ul.disc{
     list-style-type: disc;
     padding-left: 16px;
 }
-ul.circle li{
+ul.disc li{
     list-style-type: disc;
 }
