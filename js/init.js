@@ -5,11 +5,8 @@ $(document).ready(function(){
   $(function(){
 
     // Floating-Fixed table of contents
-    if ($('nav').length) {
-      $('.toc-wrapper').pushpin({ top: $('nav').height() });
-    }
-    else if ($('#index-banner').length) {
-      $('.toc-wrapper').pushpin({ top: $('#index-banner').height() });
+    if ($('section#intro').length) {
+      $('.toc-wrapper').pushpin({ top: $('section#intro').height() });
     }
     else {
       $('.toc-wrapper').pushpin({ top: 0 });

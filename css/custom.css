@@ -8,12 +8,3 @@ ul.disc{
 ul.disc li{
     list-style-type: disc;
 }
-#cover {
-    background: url(../img/xaviersit.jpg);
-    background-size: 100% 100%;
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-color: #000;
-    color: #000;
-}
