@@ -17,13 +17,13 @@ html, body {
     color: white;
     text-align: center;
 }
-#intro p {
-    color:white;
+#intro h2 {
+    color: white;
     text-align: center;
 }
 .intro-content {
     position: absolute;
-    padding: 20% 0 5% 0;
+    padding: 15% 0 5% 0;
     left: 0;
     right: 0;
     z-index: 0;
