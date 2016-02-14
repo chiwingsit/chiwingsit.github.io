@@ -7,4 +7,8 @@ ul.disc{
 }
 ul.disc li{
     list-style-type: disc;
+    opacity:0;
+}
+.scrollfire{
+    opacity: 0;
 }
