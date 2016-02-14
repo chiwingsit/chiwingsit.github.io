@@ -7,7 +7,14 @@ ul.disc{
 }
 ul.disc li{
     list-style-type: disc;
-    opacity:0;
+}
+ul.staggered{
+    list-style-type: disc;
+    padding-left: 16px;
+}
+ul.staggered li{
+    list-style-type: disc;
+    opacity: 0;
 }
 .scrollfire{
     opacity: 0;
