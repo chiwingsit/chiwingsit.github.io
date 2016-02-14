@@ -5,6 +5,7 @@ $(document).ready(function(){
 });
 console.log("Hello World");
 var options = [
+    {selector: '#list-about', offset: 50, callback: 'Materialize.showStaggeredList("#list-about")' },
     {selector: '#proficient-skills', offset: 50, callback: 'Materialize.showStaggeredList("#proficient-skills")' },
     {selector: '#inter-skills', offset: 50, callback: 'Materialize.showStaggeredList("#inter-skills")' },
     {selector: '#novice-skills', offset: 50, callback: 'Materialize.showStaggeredList("#novice-skills")' },
@@ -13,6 +14,8 @@ var options = [
     {selector: '#list-silanis', offset: 50, callback: 'Materialize.showStaggeredList("#list-silanis")' },
     {selector: '#list-codejam', offset: 50, callback: 'Materialize.showStaggeredList("#list-codejam")' },
     {selector: '#list-radioip', offset: 50, callback: 'Materialize.showStaggeredList("#list-radioip")' },
+    {selector: '#list-riotinto', offset: 50, callback: 'Materialize.showStaggeredList("#list-riotinto")' },
+    {selector: '#list-nserc', offset: 50, callback: 'Materialize.showStaggeredList("#list-nserc")' },
     {selector: '#img-about', offset: 0, callback: 'Materialize.fadeInImage("#img-about")' },
     {selector: '#img-mcgill', offset: 0, callback: 'Materialize.fadeInImage("#img-mcgill")' },
     {selector: '#img-KU', offset: 0, callback: 'Materialize.fadeInImage("#img-KU")' },
