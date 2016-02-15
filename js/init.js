@@ -2,6 +2,7 @@ $(document).ready(function(){
     $('.scrollspy').scrollSpy();
     // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
     $('.modal-trigger').leanModal();
+    $(".button-collapse").sideNav();
 });
 console.log("Hello World");
 var options = [
