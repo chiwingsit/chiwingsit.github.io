@@ -4,7 +4,7 @@ html, body {
     margin: 0px auto;
 }
 #cover {
-    background-image: url(../img/Montreal_Canada.jpg);
+    background-image: url(../img/Cover.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -12,6 +12,27 @@ html, body {
     background-color: #000;
     min-height: 75%;
     color: #000;
+}
+table.contact td {
+    padding: 5px;
+}
+ul.disc{
+    list-style-type: disc;
+    padding-left: 16px;
+}
+ul.disc li{
+    list-style-type: disc;
+}
+ul.staggered{
+    list-style-type: disc;
+    padding-left: 16px;
+}
+ul.staggered li{
+    list-style-type: disc;
+    opacity: 0;
+}
+.scrollfire{
+    opacity: 0;
 }
 #cover h1 {
     color: white;
