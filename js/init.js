@@ -4,9 +4,11 @@ $(document).ready(function(){
     $('.modal-trigger').leanModal();
     $(".button-collapse").sideNav();
 });
-console.log("Hello World");
 var options = [
     {selector: '#list-about', offset: 50, callback: 'Materialize.showStaggeredList("#list-about")' },
+    {selector: '#location', offset: 50, callback: 'Materialize.showStaggeredList("#location")' },
+    {selector: '#contact', offset: 50, callback: 'Materialize.showStaggeredList("#contact")' },
+    {selector: '#social', offset: 50, callback: 'Materialize.showStaggeredList("#social")' },
     {selector: '#proficient-skills', offset: 50, callback: 'Materialize.showStaggeredList("#proficient-skills")' },
     {selector: '#inter-skills', offset: 50, callback: 'Materialize.showStaggeredList("#inter-skills")' },
     {selector: '#novice-skills', offset: 50, callback: 'Materialize.showStaggeredList("#novice-skills")' },
